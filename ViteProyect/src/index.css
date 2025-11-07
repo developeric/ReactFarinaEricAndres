@@ -1,0 +1,38 @@
+:root {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+
+  color-scheme: light dark;
+  color: rgba(255, 255, 255, 0.87);
+  background-color: #242424;
+
+  font-synthesis: none;
+  text-rendering: optimizeLegibility;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  display: flex;
+  justify-content: center;
+}
+
+.loginForm {
+  display: grid;
+  padding: 2rem;
+}
+.registerForm {
+  display: grid;
+  margin: 2rem;
+  position: fixed;
+}
+.logout {
+  /* border: 2px solid green; */
+
+  margin-left: 5rem;
+}
+button:hover {
+  /* border: 2px solid blue; */
+  transition: 1s;
+  background: rgba(255, 0, 234, 0.774);
+  border: none;
+  height: 2rem;
+}
